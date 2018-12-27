@@ -9,19 +9,49 @@ media_folder: "static/images/uploads" # Media files will be stored in the repo u
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 ---
 - file: "content/home/about.md"
-        label: "About"
-        name: "about"
+  label: "About"
+  name: "about"
+  fields:
+    - {
+        label: "Widget (Don't modify)",
+        name: "widget",
+        widget: "string",
+        default: "about",
+      }
+    - { label: "Active", name: "active", widget: "boolean", default: true }
+    - { label: "Date", name: "date", widget: "datetime" }
+    - { label: "Weight", name: weight, default: 5 }
+    - {
+        label: "Interests",
+        name: interests,
+        widget: object,
         fields:
-          - {label: "Widget (Don't modify)", name: "widget", widget: "string", default: "about"}
-          - {label: "Active", name: "active", widget: "boolean", default: true }
-          - {label: "Date", name: "date", widget: "datetime" }
-          - {label: "Weight", name: weight,  default: 5}
-          - {label: "Interests", name: interests, widget: object, fields: [
-              {label: "Interests list", name: "interests", widget: "list", 
-              default: ["Artificial Intelligence"]}]}
-          - {label: "Education", name: "education", widget: "object", fields: [
-              {label: "courses", name: "courses", widget: "list", fields: [
-                {label: Course, name: course , widget: string},
-                {label: Institution, name: institution, widget: string},
-                {label: Year, name: year, default: 2010}]}]}
-          - { label: "Body", name: "body", widget: "markdown", required: false }
+          [
+            {
+              label: "Interests list",
+              name: "interests",
+              widget: "list",
+              default: ["Artificial Intelligence"],
+            },
+          ],
+      }
+    - {
+        label: "Education",
+        name: "education",
+        widget: "object",
+        fields:
+          [
+            {
+              label: "courses",
+              name: "courses",
+              widget: "list",
+              fields:
+                [
+                  { label: Course, name: course, widget: string },
+                  { label: Institution, name: institution, widget: string },
+                  { label: Year, name: year, default: 2010 },
+                ],
+            },
+          ],
+      }
+    - { label: "Body", name: "body", widget: "markdown", required: false }
