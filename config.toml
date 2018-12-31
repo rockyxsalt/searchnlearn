@@ -1,11 +1,11 @@
 baseurl = "/"
-title = "Academic Theme Netlify CMS"
-copyright = "Elloza ?? &copy; 2018"
-theme = "academic"
+title = "SearchnLearn"
+copyright = "aram.com &copy; 2018"
+theme = "searchnlearn"
 enableEmoji = true
 footnotereturnlinkcontents = "hey"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-paginate = 10.0
+paginate = 10
 disqusShortname = ""
 googleAnalytics = ""
 defaultContentLanguage = "en"
@@ -23,8 +23,8 @@ hrefTargetBlank = true
 smartypants = true
 
 [params]
-address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-avatar = "/img/bubbles-wide.jpg"
+address = "Tirunelveli India"
+avatar = "/img/portrait.jpg"
 color_theme = "default"
 comment_count = true
 custom_css = []
@@ -42,8 +42,8 @@ longitude = "-122.1697"
 map = "2"
 map_api_key = ""
 math = false
-name = "¡lvaro Lozano"
-office_hours = "Monday 10:00 to 13:00 or email for appointment"
+name = "√Ålvaro Lozano"
+office_hours = "Monday 10:00 to 18:00 or email for appointment"
 phone = "888 888 88 88"
 privacy_pack = false
 publication_types = ["Uncategorized", "Conference paper", "Journal article", "Manuscript", "Report", "Book", "Book section"]
@@ -51,10 +51,10 @@ reading_time = true
 role = "Android Developer and PhD Student"
 section_pager = true
 sharing = true
-skype = "echo123"
+skype = "rockyxsalt"
 telegram = ""
 time_format = "3:04 PM"
-zoom = 15.0
+zoom = 15
 
 [params.menus]
 align_right = true
@@ -65,7 +65,7 @@ url = "www.usal.es"
 
 [params.projects]
 list_children = true
-publication_format = 3.0
+publication_format = 3
 
 [[params.social]]
 icon = "envelope"
@@ -95,37 +95,37 @@ time = true
 [[menu.main]]
 name = "Home"
 url = "#about"
-weight = 1.0
+weight = 1
 
 [[menu.main]]
 name = "Publications"
 url = "#publications_selected"
-weight = 2.0
+weight = 2
 
 [[menu.main]]
 name = "Posts"
 url = "#posts"
-weight = 3.0
+weight = 3
 
 [[menu.main]]
 name = "Projects"
 url = "#projects"
-weight = 4.0
+weight = 4
 
 [[menu.main]]
 name = "Teaching"
 url = "#teaching"
-weight = 5.0
+weight = 5
 
 [[menu.main]]
 name = "Talks"
 url = "#talks"
-weight = 6.0
+weight = 6
 
 [[menu.main]]
 name = "Contact"
 url = "#contact"
-weight = 7.0
+weight = 7
 
 [taxonomies]
 category = "categories"
