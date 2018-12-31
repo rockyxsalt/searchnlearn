@@ -31,7 +31,7 @@ custom_css = []
 custom_js = []
 date_format = "Jan 2, 2006"
 email = "test@example.org"
-font = "playfair"
+font = "default"
 gravatar = false
 highlight = true
 highlight_languages = []
@@ -42,7 +42,7 @@ longitude = "-122.1697"
 map = "2"
 map_api_key = ""
 math = false
-name = "Álvaro Lozano"
+name = "Sathish Kumar"
 office_hours = "Monday 10:00 to 18:00 or email for appointment"
 phone = "888 888 88 88"
 privacy_pack = false
@@ -60,8 +60,8 @@ zoom = 15
 align_right = true
 
 [[params.organizations]]
-name = "University of Salamanca"
-url = "www.usal.es"
+name = "University of Madras"
+url = "www.aram.com"
 
 [params.projects]
 list_children = true
