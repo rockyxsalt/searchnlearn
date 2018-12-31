@@ -24,7 +24,7 @@ smartypants = true
 
 [params]
 address = "Tirunelveli India"
-avatar = "/img/portrait.jpg"
+avatar = "portrait.jpg"
 color_theme = "default"
 comment_count = true
 custom_css = []
