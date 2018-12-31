@@ -66,7 +66,23 @@ url = "www.usal.es"
 [params.projects]
 list_children = true
 publication_format = 3.0
-
+  # Social/Academic Networking
+  #
+  # Icon pack "fab" includes the following social network icons:
+  #
+  #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
+  #   youtube, instagram, soundcloud
+  #
+  #   For email icon, use "fas" icon pack, "envelope" icon, and
+  #   "mailto:your@email.com" as the link.
+  #
+  #   Full list: https://fontawesome.com/icons
+  #
+  # Icon pack "ai" includes the following academic icons:
+  #
+  #   cv, google-scholar, arxiv, orcid, researchgate, mendeley
+  #
+  #   Full list: https://jpswalsh.github.io/academicons/
 [[params.social]]
 icon = "envelope"
 icon_pack = "fa"
@@ -74,12 +90,12 @@ link = "mailto:test@example.org"
 
 [[params.social]]
 icon = "twitter"
-icon_pack = "fa"
+icon_pack = "fab"
 link = "//twitter.com/GeorgeCushen"
 
 [[params.social]]
 icon = "github"
-icon_pack = "fa"
+icon_pack = "fab"
 link = "//github.com/rockyxsalt"
 
 [params.talks]
