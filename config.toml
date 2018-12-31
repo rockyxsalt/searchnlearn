@@ -1,11 +1,11 @@
 baseurl = "/"
-title = "Academic Theme Netlify CMS"
-copyright = "vivekclement 😊 &copy; 2018"
+title = "Search and Learn"
+copyright = "rockyxsalt &copy; 2018"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "hey"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-paginate = 10.0
+paginate = 10
 disqusShortname = ""
 googleAnalytics = ""
 defaultContentLanguage = "en"
@@ -23,15 +23,19 @@ hrefTargetBlank = true
 smartypants = true
 
 [params]
-address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-avatar = "/img/bubbles-wide.jpg"
-color_theme = "default"
+address = "Tirunelveli India"
+avatar = "/img/portrait.jpg"
+  # Color theme.
+  #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
+  color_theme = "default"
 comment_count = true
 custom_css = []
 custom_js = []
 date_format = "Jan 2, 2006"
-email = "test@example.org"
-font = "playfair"
+email = "satsix@gmail.com "
+ # Font style.
+  #   Choose from `default`, `classic`, or `playfair`.
+  font = "default"
 gravatar = false
 highlight = true
 highlight_languages = []
@@ -42,26 +46,26 @@ longitude = "-122.1697"
 map = "2"
 map_api_key = ""
 math = false
-name = "Álvaro Lozano"
-office_hours = "Monday 10:00 to 13:00 or email for appointment"
+name = "Sathish Kumar"
+office_hours = "Monday 10:00 to 18:00 or email for appointment"
 phone = "888 888 88 88"
 privacy_pack = false
 publication_types = ["Uncategorized", "Conference paper", "Journal article", "Manuscript", "Report", "Book", "Book section"]
 reading_time = true
-role = "Android Developer and PhD Student"
+role = "Founder"
 section_pager = true
 sharing = true
-skype = "echo123"
+skype = "satsix"
 telegram = ""
 time_format = "3:04 PM"
-zoom = 15.0
+zoom = 15
 
 [params.menus]
 align_right = true
 
 [[params.organizations]]
-name = "University of Salamanca"
-url = "www.usal.es"
+name = "Aram Inc"
+url = "www.aram.com"
 
 [params.projects]
 list_children = true
@@ -83,15 +87,18 @@ publication_format = 3.0
   #   cv, google-scholar, arxiv, orcid, researchgate, mendeley
   #
   #   Full list: https://jpswalsh.github.io/academicons/
+
+publication_format = 3
+
 [[params.social]]
 icon = "envelope"
-icon_pack = "fa"
-link = "mailto:test@example.org"
+icon_pack = "fas"
+link = "mailto:satsix@gmail.com "
 
 [[params.social]]
 icon = "twitter"
 icon_pack = "fab"
-link = "//twitter.com/GeorgeCushen"
+link = "//twitter.com/rockyxsalt"
 
 [[params.social]]
 icon = "github"
@@ -106,37 +113,37 @@ time = true
 [[menu.main]]
 name = "Home"
 url = "#about"
-weight = 1.0
+weight = 1
 
 [[menu.main]]
 name = "Publications"
 url = "#publications_selected"
-weight = 2.0
+weight = 2
 
 [[menu.main]]
 name = "Posts"
 url = "#posts"
-weight = 3.0
+weight = 3
 
 [[menu.main]]
 name = "Projects"
 url = "#projects"
-weight = 4.0
+weight = 4
 
 [[menu.main]]
 name = "Teaching"
 url = "#teaching"
-weight = 5.0
+weight = 5
 
 [[menu.main]]
 name = "Talks"
 url = "#talks"
-weight = 6.0
+weight = 6
 
 [[menu.main]]
 name = "Contact"
 url = "#contact"
-weight = 7.0
+weight = 7
 
 [taxonomies]
 category = "categories"
