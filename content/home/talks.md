@@ -1,5 +1,5 @@
 ---
-widget: Classes
+widget: talks
 active: true
 date: 2018-12-31T15:16:50.712Z
 title: Video
