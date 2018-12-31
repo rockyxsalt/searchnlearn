@@ -1,7 +1,7 @@
 baseurl = "/"
 title = "SearchnLearn"
 copyright = "aram.com &copy; 2018"
-theme = "searchnlearn"
+theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "hey"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
