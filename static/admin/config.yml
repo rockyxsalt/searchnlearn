@@ -220,6 +220,7 @@ collections:
           - {label: "Weight", name: weight,  default: 30}
           - {label: "Number of talks", name: count,  default: 10}
           - {label: "List format 0 simple | 1 simple", name: list_format,  default: 0}
+          #- {label: "video",name : "video", widget: youtube, extraInfo: true, APIkey: "AIzaSyC4GqTctxYpt16oTUEoz-71uWV3ZwqxMO0"}
 
       - file: "content/home/teaching.md"
         label: "Teaching"
